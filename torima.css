@@ -20,6 +20,9 @@
   border-radius: 4px;
   transition: .4s;
 }
+.btn-border:visited {
+    color: #9ec34b;    
+}
 
 .btn-border:hover {
   background-color: #9ec34b;
