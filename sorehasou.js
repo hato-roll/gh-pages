@@ -7,9 +7,9 @@ function alert_sorehasouzyanaino(){
 
 // 将来的にはOKとキャンセルじゃなくてそれはそうかを聞きたい
 function confirm_sorehasouzyanaino(){
-    var let;
-    let=window.confirm("それはそうじゃないの？");
-    if (let){
+    var sorehasou;
+    sorehasou=window.confirm("それはそうじゃないの？");
+    if (sorehasou){
         window.location.href = 'https://www.google.com/';
     }
     else {
